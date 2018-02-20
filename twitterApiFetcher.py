@@ -5,10 +5,10 @@ import tweepy, time, sys
 
 
 def getApi():
-	CONSUMER_KEY = 'hgfpOILTmVOceGyzb0paJSAWt'
-	CONSUMER_SECRET = '1ukvoVxXyiNQbG7Cd6LTTSueCSZ4ROx3XNyJxaNo3l8JwZCf6J'
-	ACCESS_KEY = '266248463-Ug7q5WQh9n3ZrSbtL0L0MQA6AMMN23uJtz5iJ7pV'
-	ACCESS_SECRET = 'pjoTMqQ86mCEPBollfSo3OISZaS2S0S3QjvY3smQ2miAd'
+	CONSUMER_KEY = '...'
+	CONSUMER_SECRET = '...'
+	ACCESS_KEY = '...'
+	ACCESS_SECRET = '...'
 	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 	auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 	api = tweepy.API(auth)
